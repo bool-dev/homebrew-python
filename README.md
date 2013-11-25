@@ -13,6 +13,7 @@ This repository contains formulae for [Homebrew](http://mxcl.github.com/homebrew
 *   **SciPy**
     -   optionally link against the *openBLAS* (--with-openblas)
     -   If you want, turn around your `--HEAD`
+    -   requires homebrew/science tap
 *   **Matplotlib**
     -   Support all optional deps, installable by brew
         (e.g. PyGTK, cairo, ghostscript, tk, freetype and libpng)
@@ -36,6 +37,7 @@ This repository contains formulae for [Homebrew](http://mxcl.github.com/homebrew
 *   `brew tap samueljohn/python`
 *   `brew install scipy`
 *   `brew test scipy --verbose`
+*   Some packages require the homebrew/science tap, for instance scipy, so: `brew tap homebrew/science`
 
 
 ## Python ##
